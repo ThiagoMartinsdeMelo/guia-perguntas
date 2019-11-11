@@ -1,0 +1,23 @@
+{
+  "name": "guia-perguntas",
+  "version": "1.0.0",
+  "description": "Uma plataforma de perguntas e respostas ao estilo Yahoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoMartinsdeMelo/guia-perguntas.git"
+  },
+  "author": "Thiago Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoMartinsdeMelo/guia-perguntas/issues"
+  },
+  "homepage": "https://github.com/ThiagoMartinsdeMelo/guia-perguntas#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
