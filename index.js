@@ -24,7 +24,13 @@ app.use(bodyParser.json())
 
 // rotas
 app.get('/', (req, res) => {
-    res.render('index');
+    Pergunta.findAll({ raw: true, order: [
+        ['id', 'DESC']
+    ]}).then(perguntas => {
+        res.render('index', {
+            perguntas: perguntas
+        });
+    });
 });
 
 app.get('/perguntar', (req, res) => {
